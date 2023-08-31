@@ -1,0 +1,966 @@
+# depslib dependency file v1.0
+1692198044 source:e:\conexao_c++\conexao.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1692302870 source:e:\conexao_c++\configuracao.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1692975440 source:e:\conexao_c++\conexao_server.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<winsock.h>
+	<time.h>
+	<wchar.h>
+	<inttypes.h>
+	"conexao_server.h"
+
+1693190577 source:e:\conexao_c++\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<winsock.h>
+	<mysql.h>
+	"configuracao.cpp"
+	"conexao_server.cpp"
+	"send_requisicoes.cpp"
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+
+1692302870 e:\conexao_c++\configuracao.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1692975440 e:\conexao_c++\conexao_server.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<winsock.h>
+	<time.h>
+	<wchar.h>
+	<inttypes.h>
+	"conexao_server.h"
+
+1692490798 e:\conexao_c++\conexao_server.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<winsock.h>
+	"configuracao.cpp"
+	"conexao_server.cpp"
+
+1692532440 source:e:\conexao_c++\get_requisicoes.cpp
+
+1693187150 source:e:\conexao_c++\send_requisicoes.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<winsock.h>
+	<time.h>
+	<wchar.h>
+	<inttypes.h>
+
+1693187150 e:\conexao_c++\send_requisicoes.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<winsock.h>
+	<time.h>
+	<wchar.h>
+	<inttypes.h>
+
+1692490798 c:\users\tiago\documents\conexao_c++\conexao_server.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<winsock.h>
+	"configuracao.cpp"
+	"conexao_server.cpp"
+
+1692302870 c:\users\tiago\documents\conexao_c++\configuracao.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1692975440 c:\users\tiago\documents\conexao_c++\conexao_server.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<winsock.h>
+	<time.h>
+	<wchar.h>
+	<inttypes.h>
+	"conexao_server.h"
+
+1693187152 c:\users\tiago\documents\conexao_c++\send_requisicoes.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<winsock.h>
+	<time.h>
+	<wchar.h>
+	<inttypes.h>
+
+1476096934 c:\codeblocks\codeblocks\mingw\include\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1476096948 c:\codeblocks\codeblocks\mingw\include\mysql_com.h
+
+1476096974 c:\codeblocks\codeblocks\mingw\include\mysql_time.h
+
+1476096984 c:\codeblocks\codeblocks\mingw\include\mysql_version.h
+	<custom_conf.h>
+
+1476097124 c:\codeblocks\codeblocks\mingw\include\typelib.h
+
+1476097170 c:\codeblocks\codeblocks\mingw\include\my_list.h
+
+1476097178 c:\codeblocks\codeblocks\mingw\include\my_alloc.h
+
+1476096933 c:\mysql\mysqlheaders\mysqlheaders\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1476096946 c:\mysql\mysqlheaders\mysqlheaders\mysql_com.h
+
+1476096972 c:\mysql\mysqlheaders\mysqlheaders\mysql_time.h
+
+1476096983 c:\mysql\mysqlheaders\mysqlheaders\mysql_version.h
+	<custom_conf.h>
+
+1476097123 c:\mysql\mysqlheaders\mysqlheaders\typelib.h
+
+1476097168 c:\mysql\mysqlheaders\mysqlheaders\my_list.h
+
+1476097177 c:\mysql\mysqlheaders\mysqlheaders\my_alloc.h
+
+1341006776 c:\codeblocks\codeblocks_17\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1341006770 c:\codeblocks\codeblocks_17\mingw\include\_mingw.h
+
+1341006780 c:\codeblocks\codeblocks_17\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006776 c:\codeblocks\codeblocks_17\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\codeblocks\codeblocks_17\mingw\include\winuser.h
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\winerror.h
+
+1341006776 c:\codeblocks\codeblocks_17\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111148 c:\codeblocks\codeblocks_17\mingw\include\basetsd.h
+
+1301111156 c:\codeblocks\codeblocks_17\mingw\include\pshpack4.h
+
+1301111156 c:\codeblocks\codeblocks_17\mingw\include\poppack.h
+
+1301111164 c:\codeblocks\codeblocks_17\mingw\include\winver.h
+
+1301111148 c:\codeblocks\codeblocks_17\mingw\include\dde.h
+
+1301111150 c:\codeblocks\codeblocks_17\mingw\include\dlgs.h
+
+1301111148 c:\codeblocks\codeblocks_17\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\codeblocks\codeblocks_17\mingw\include\prsht.h
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\wincon.h
+
+1301111160 c:\codeblocks\codeblocks_17\mingw\include\winbase.h
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\wingdi.h
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\winnls.h
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\winnetwk.h
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\winreg.h
+
+1301111164 c:\codeblocks\codeblocks_17\mingw\include\winsvc.h
+
+1301111148 c:\codeblocks\codeblocks_17\mingw\include\cderr.h
+
+1301111148 c:\codeblocks\codeblocks_17\mingw\include\ddeml.h
+
+1301111150 c:\codeblocks\codeblocks_17\mingw\include\imm.h
+
+1301111154 c:\codeblocks\codeblocks_17\mingw\include\lzexpand.h
+
+1301111154 c:\codeblocks\codeblocks_17\mingw\include\mmsystem.h
+
+1301111154 c:\codeblocks\codeblocks_17\mingw\include\nb30.h
+
+1301111158 c:\codeblocks\codeblocks_17\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\codeblocks\codeblocks_17\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\codeblocks\codeblocks_17\mingw\include\basetyps.h
+
+1301111158 c:\codeblocks\codeblocks_17\mingw\include\rpcdcep.h
+
+1301111158 c:\codeblocks\codeblocks_17\mingw\include\rpcnsi.h
+
+1301111158 c:\codeblocks\codeblocks_17\mingw\include\rpcnterr.h
+
+1341006772 c:\codeblocks\codeblocks_17\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\codeblocks\codeblocks_17\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\codeblocks\codeblocks_17\mingw\include\pshpack2.h
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\winperf.h
+
+1301111148 c:\codeblocks\codeblocks_17\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\codeblocks\codeblocks_17\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\codeblocks\codeblocks_17\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\codeblocks\codeblocks_17\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\codeblocks\codeblocks_17\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\codeblocks\codeblocks_17\mingw\include\rpcnsip.h
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\winspool.h
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\codeblocks\codeblocks_17\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\codeblocks\codeblocks_17\mingw\include\mswsock.h
+
+1301111156 c:\codeblocks\codeblocks_17\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\codeblocks\codeblocks_17\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1301111156 c:\codeblocks\codeblocks_17\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\codeblocks\codeblocks_17\mingw\include\cguid.h
+
+1301111156 c:\codeblocks\codeblocks_17\mingw\include\olectlid.h
+
+1301111156 c:\codeblocks\codeblocks_17\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\codeblocks\codeblocks_17\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\codeblocks\codeblocks_17\mingw\include\oleidl.h
+	<objfwd.h>
+
+1341006776 c:\codeblocks\codeblocks_17\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006778 c:\codeblocks\codeblocks_17\mingw\include\wchar.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<wctype.h>
+	<sys/types.h>
+	<stdio.h>
+	<stdint.h>
+	<stdint.h>
+
+1341006778 c:\codeblocks\codeblocks_17\mingw\include\wctype.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006776 c:\codeblocks\codeblocks_17\mingw\include\stdint.h
+	<stddef.h>
+
+1341006772 c:\codeblocks\codeblocks_17\mingw\include\inttypes.h
+	<_mingw.h>
+	<stdint.h>
+	<stddef.h>
+
+1341006776 c:\codeblocks\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1341006770 c:\codeblocks\mingw\include\_mingw.h
+
+1341006780 c:\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1656109110 c:\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111162 c:\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1634873742 c:\codeblocks\mingw\include\winuser.h
+
+1301111162 c:\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\codeblocks\mingw\include\winerror.h
+
+1341006776 c:\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111148 c:\codeblocks\mingw\include\basetsd.h
+
+1301111156 c:\codeblocks\mingw\include\pshpack4.h
+
+1301111156 c:\codeblocks\mingw\include\poppack.h
+
+1301111164 c:\codeblocks\mingw\include\winver.h
+
+1301111148 c:\codeblocks\mingw\include\dde.h
+
+1301111150 c:\codeblocks\mingw\include\dlgs.h
+
+1301111148 c:\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\codeblocks\mingw\include\prsht.h
+
+1301111162 c:\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\codeblocks\mingw\include\wincon.h
+
+1301111160 c:\codeblocks\mingw\include\winbase.h
+
+1301111162 c:\codeblocks\mingw\include\wingdi.h
+
+1301111162 c:\codeblocks\mingw\include\winnls.h
+
+1301111162 c:\codeblocks\mingw\include\winnetwk.h
+
+1301111162 c:\codeblocks\mingw\include\winreg.h
+
+1301111164 c:\codeblocks\mingw\include\winsvc.h
+
+1301111148 c:\codeblocks\mingw\include\cderr.h
+
+1301111148 c:\codeblocks\mingw\include\ddeml.h
+
+1301111150 c:\codeblocks\mingw\include\imm.h
+
+1301111154 c:\codeblocks\mingw\include\lzexpand.h
+
+1301111154 c:\codeblocks\mingw\include\mmsystem.h
+
+1301111154 c:\codeblocks\mingw\include\nb30.h
+
+1301111158 c:\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\codeblocks\mingw\include\basetyps.h
+
+1301111158 c:\codeblocks\mingw\include\rpcdcep.h
+
+1301111158 c:\codeblocks\mingw\include\rpcnsi.h
+
+1301111158 c:\codeblocks\mingw\include\rpcnterr.h
+
+1341006772 c:\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\codeblocks\mingw\include\pshpack2.h
+
+1301111162 c:\codeblocks\mingw\include\winperf.h
+
+1301111148 c:\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\codeblocks\mingw\include\rpcnsip.h
+
+1301111162 c:\codeblocks\mingw\include\winspool.h
+
+1301111162 c:\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\codeblocks\mingw\include\mswsock.h
+
+1301111156 c:\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1301111156 c:\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\codeblocks\mingw\include\cguid.h
+
+1301111156 c:\codeblocks\mingw\include\olectlid.h
+
+1301111156 c:\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1341006776 c:\codeblocks\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006778 c:\codeblocks\mingw\include\wchar.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<wctype.h>
+	<sys/types.h>
+	<stdio.h>
+	<stdint.h>
+	<stdint.h>
+
+1341006778 c:\codeblocks\mingw\include\wctype.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006776 c:\codeblocks\mingw\include\stdint.h
+	<stddef.h>
+
+1341006772 c:\codeblocks\mingw\include\inttypes.h
+	<_mingw.h>
+	<stdint.h>
+	<stddef.h>
+
+1341006776 c:\codeblocks_\codeblocks_17\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1341006770 c:\codeblocks_\codeblocks_17\mingw\include\_mingw.h
+
+1341006780 c:\codeblocks_\codeblocks_17\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006776 c:\codeblocks_\codeblocks_17\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\codeblocks_\codeblocks_17\mingw\include\winuser.h
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\winerror.h
+
+1341006776 c:\codeblocks_\codeblocks_17\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111148 c:\codeblocks_\codeblocks_17\mingw\include\basetsd.h
+
+1301111156 c:\codeblocks_\codeblocks_17\mingw\include\pshpack4.h
+
+1301111156 c:\codeblocks_\codeblocks_17\mingw\include\poppack.h
+
+1301111164 c:\codeblocks_\codeblocks_17\mingw\include\winver.h
+
+1301111148 c:\codeblocks_\codeblocks_17\mingw\include\dde.h
+
+1301111150 c:\codeblocks_\codeblocks_17\mingw\include\dlgs.h
+
+1301111148 c:\codeblocks_\codeblocks_17\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\codeblocks_\codeblocks_17\mingw\include\prsht.h
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\wincon.h
+
+1301111160 c:\codeblocks_\codeblocks_17\mingw\include\winbase.h
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\wingdi.h
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\winnls.h
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\winnetwk.h
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\winreg.h
+
+1301111164 c:\codeblocks_\codeblocks_17\mingw\include\winsvc.h
+
+1301111148 c:\codeblocks_\codeblocks_17\mingw\include\cderr.h
+
+1301111148 c:\codeblocks_\codeblocks_17\mingw\include\ddeml.h
+
+1301111150 c:\codeblocks_\codeblocks_17\mingw\include\imm.h
+
+1301111154 c:\codeblocks_\codeblocks_17\mingw\include\lzexpand.h
+
+1301111154 c:\codeblocks_\codeblocks_17\mingw\include\mmsystem.h
+
+1301111154 c:\codeblocks_\codeblocks_17\mingw\include\nb30.h
+
+1301111158 c:\codeblocks_\codeblocks_17\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\codeblocks_\codeblocks_17\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\codeblocks_\codeblocks_17\mingw\include\basetyps.h
+
+1301111158 c:\codeblocks_\codeblocks_17\mingw\include\rpcdcep.h
+
+1301111158 c:\codeblocks_\codeblocks_17\mingw\include\rpcnsi.h
+
+1301111158 c:\codeblocks_\codeblocks_17\mingw\include\rpcnterr.h
+
+1341006772 c:\codeblocks_\codeblocks_17\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\codeblocks_\codeblocks_17\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\codeblocks_\codeblocks_17\mingw\include\pshpack2.h
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\winperf.h
+
+1301111148 c:\codeblocks_\codeblocks_17\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\codeblocks_\codeblocks_17\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\codeblocks_\codeblocks_17\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\codeblocks_\codeblocks_17\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\codeblocks_\codeblocks_17\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\codeblocks_\codeblocks_17\mingw\include\rpcnsip.h
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\winspool.h
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\codeblocks_\codeblocks_17\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\codeblocks_\codeblocks_17\mingw\include\mswsock.h
+
+1301111156 c:\codeblocks_\codeblocks_17\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\codeblocks_\codeblocks_17\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1301111156 c:\codeblocks_\codeblocks_17\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\codeblocks_\codeblocks_17\mingw\include\cguid.h
+
+1301111156 c:\codeblocks_\codeblocks_17\mingw\include\olectlid.h
+
+1301111156 c:\codeblocks_\codeblocks_17\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\codeblocks_\codeblocks_17\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\codeblocks_\codeblocks_17\mingw\include\oleidl.h
+	<objfwd.h>
+
+1341006776 c:\codeblocks_\codeblocks_17\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006778 c:\codeblocks_\codeblocks_17\mingw\include\wchar.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<wctype.h>
+	<sys/types.h>
+	<stdio.h>
+	<stdint.h>
+	<stdint.h>
+
+1341006778 c:\codeblocks_\codeblocks_17\mingw\include\wctype.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006776 c:\codeblocks_\codeblocks_17\mingw\include\stdint.h
+	<stddef.h>
+
+1341006772 c:\codeblocks_\codeblocks_17\mingw\include\inttypes.h
+	<_mingw.h>
+	<stdint.h>
+	<stddef.h>
+
+1692198044 source:c:\users\tiago\documents\conexao_c++\conexao.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1692975440 source:c:\users\tiago\documents\conexao_c++\conexao_server.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<winsock.h>
+	<time.h>
+	<wchar.h>
+	<inttypes.h>
+	"conexao_server.h"
+
+1692302870 source:c:\users\tiago\documents\conexao_c++\configuracao.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1692532440 source:c:\users\tiago\documents\conexao_c++\get_requisicoes.cpp
+
+1693250493 source:c:\users\tiago\documents\conexao_c++\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<winsock.h>
+	<mysql.h>
+	<wchar.h>
+	"configuracao.cpp"
+	"conexao_server.cpp"
+	"send_requisicoes.cpp"
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+
+1693187152 source:c:\users\tiago\documents\conexao_c++\send_requisicoes.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<winsock.h>
+	<time.h>
+	<wchar.h>
+	<inttypes.h>
+

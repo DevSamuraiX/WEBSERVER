@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CONEXAO_C++" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CONEXAO_C++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=gnu++11" />
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="C:/CodeBlocks/CodeBlocks_17/MinGW/include" />
+					<Add directory="C:/MySql/mysqlheaders/mysqlheaders" />
+					<Add directory="C:/CodeBlocks/MinGW/include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/MySql/libmysql.a/libmysql.a" />
+					<Add library="C:/CodeBlocks/CodeBlocks_17/MinGW/lib/libwsock32.a" />
+					<Add directory="C:/CodeBlocks/CodeBlocks_17/MinGW/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CONEXAO_C++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="conexao.cpp" />
+		<Unit filename="conexao_server.cpp" />
+		<Unit filename="conexao_server.h" />
+		<Unit filename="configuracao.cpp" />
+		<Unit filename="get_requisicoes.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="send_requisicoes.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
