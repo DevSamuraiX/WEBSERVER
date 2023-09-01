@@ -8,8 +8,6 @@
 #include "configuracao.cpp"
 #include "conexao_server.cpp"
 #include "send_requisicoes.cpp"
-//#include "conexao_server.h"
-
 
 // HABILITA O TERMINAL CONSOLE EM CORES
 #ifndef ENABLE_VIRTUAL_TERMINAL_PROCESSING
@@ -185,20 +183,9 @@ int main()
     wprintf(L"\x1b[0;1m");
 
     /// CONSULTA QUERY NO MYSQL
-    // INSERT INTO `get_caminho` (`GET_CAM`) VALUES ('E:\\CONEXAO_C++\\img\\aquivo_a001.bmp'), ('E:\\CONEXAO_C++\\img\\aquivo_a002.bmp');
-    // SELECT `nome` FROM `nomes` = 'jordan'
-    // UPDATE `nomes` SET `nome` = 'C:\\Users\\Tiago\\Documents\\CONEXAO_C++\\img\\aquivo_a001.bmp' WHERE `nomes`.`id` = 1;
-    // SELECT * FROM `nomes` WHERE `nome` LIKE '%001%';
-    // SELECT * FROM `get_caminho` WHERE `get_cam` LIKE '%001%';
     ///char *caminho = lista_funcionario("SELECT * FROM `get_caminho` WHERE `get_cam` LIKE '%");
 
-
     quebra p;
-    p.d();
-    ///printf("Saida do Banco: %s", caminho);
-    p.d();
-     //system("pause");
-
     bool Atsd = false;
 
     p.d();
@@ -206,7 +193,6 @@ int main()
     while(1){
 
         /// CHAMADA DO METODO PARA CONEXÃO DE ENVIO E RECEBIMENTO DE DADOS
-        //wprintf(L"\x1b[14TJ");
         wprintf(L"\x1b[14;37m[");
         wprintf(L"\x1b[12;100m");
         conexaoServerWew *server = new conexaoServerWew;
@@ -242,7 +228,6 @@ int main()
         };
 
         wprintf(L"\x1b[14;42m");
-        //wprintf(L"\x1b[12;100mBusca");
         /// RECEBE OS DADOS DOS CLIENTES
         char recebe_cabecalho_cliente[1000];
         if((server->conectRemoteLength = recv(server->getRemoteSocket, recebe_cabecalho_cliente, 900, 0)) == SOCKET_ERROR);
@@ -251,6 +236,7 @@ int main()
         printf("\n*---------------------------------------------------------------*\n");
         printf("Resposta do Cliente: \n%s\n", recebe_cabecalho_cliente);
         wprintf(L"\x1b[0;1m");
+
         /// imagem mysql
         // https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers/Transfer-Encoding
         if(recebe_cabecalho_cliente[5] == 'a' && Atsd == false)
@@ -258,8 +244,6 @@ int main()
             closesocket(server->getRemoteSocket);
             conexaoServerWew *server = new conexaoServerWew;
             server->serverWeb();
-
-
 
             Atsd = true;
             char content_Type[177] =

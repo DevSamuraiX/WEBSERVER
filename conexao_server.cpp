@@ -28,9 +28,9 @@ public:
 
         fflush(stdin);
 
-        strDefAddressServer.sin_family = AF_INET;
+        strDefAddressServer.sin_family      = AF_INET;
         strDefAddressServer.sin_addr.s_addr = htonl(INADDR_ANY);
-        strDefAddressServer.sin_port = htons(serverPort);
+        strDefAddressServer.sin_port        = htons(serverPort);
 
         /// interligando o socket com o endereço (local)
         if (bind(conectServerSocket, (struct sockaddr *) &strDefAddressServer, sizeof(strDefAddressServer)) == SOCKET_ERROR)

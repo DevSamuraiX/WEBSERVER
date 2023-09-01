@@ -17,10 +17,11 @@ private:
     char* ipServer = "127.0.0.1";
 
     /**
-    *
-    *
+    *   VARIAVEL DE ARMAZENAMENTO DA PORTA DO SERVIÇO
+    *   @Variavel portServer_
+    *   @@ PORTE SERVER 993
     */
-    // int portServer = 993;
+    int portServer_ = 993;
 
 public:
     /**
