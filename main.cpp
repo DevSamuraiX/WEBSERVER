@@ -62,6 +62,8 @@ int conecta_ao_db() { // retorna 1 se conectou com sucesso
 
 }
 
+int *
+
 char *lista_funcionario(char *query) {
   MYSQL_RES *result;
   MYSQL_ROW row;
@@ -290,7 +292,7 @@ int main()
             strcat(query, ch);
             ///system("pause");
 
-            /**lerArqImg *imagem = new lerArqImg;
+            /*lerArqImg *imagem = new lerArqImg;
             imagem->url = lista_funcionario(query);
             char *aa = imagem->lerfile();
 
